@@ -6,6 +6,11 @@ This project is a simple machine learning exercise using classification. The goa
 
 The original dataset is named **Titanic – Machine Learning from Disaster** and can be retrieved here : https://www.kaggle.com/c/titanic/data
 
+# Technologies used 
+
+- Programming Language used : Python
+- Libraries used : pandas, numpy, seaborn, matplotlib, scikit-learn
+
 # Process
 
 This exercise was done in multiple parts : 
