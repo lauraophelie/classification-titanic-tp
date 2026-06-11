@@ -1,3 +1,0 @@
-que fait la fonction .mean() qu'on peut appliquer à un dataframe ?
-
-que fait exactement LabelEncoder() ?
