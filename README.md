@@ -25,12 +25,19 @@ This exercise was done in multiple parts :
 - Inputing the missing values : 
     - replacing the value of `Age` by the **median** : 28.0
     - replacing the value of `Embarked` by the most frequent modality : S
-- Deleting useless columns such as : `PassengerId`, `Name`, `Ticket`, `Cabin` as they do not bring any real / concrete value. 
+- Deleting useless columns such as : `PassengerId`, `Name`, `Ticket`, `Cabin` as they do not provide any real / concrete value. 
 - Creating a new variable called `Title` based on `Name` and visualizing its distribution : this new variable can help improving the survival prediction because it indicates the genre, the social class and sometimes the age of the passenger 
 
 **3. Encoding and Pre-treatment**
+- Encoding the categorial variables : `Sex`, `Embarked`, `Title` using `LabelEncoder` or `OneHotEncoder`.
+    - `LabelEncoder`: transforming each categories into an integer 
+    - `OneHotEncoder`: creating a binary column for each modality
+- Standardizing `Age` and `Fare` using `StandardScaler`
+- Dividing the dataset into `X` and `y` and target = `Survived`
 
 **4. Visualisation and Exploratory analysis**
+- Displaying the correlations heatmap
+- Building survivals barplots by `Sex`, `Pclass`, `Embarked` and `Title`
 
 **5. Decision Tree**
 
